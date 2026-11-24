@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#3b2a23">
+  <title>AI Assistance Documentation | GCI World 2026</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --espresso: #3b2a23;
+      --cocoa: #624637;
+      --copper: #a66a43;
+      --ink: #342821;
+      --muted: #7c6a5d;
+      --line: #e4d8cc;
+      --surface: #fffdfa;
+      --soft: #f5eee7;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: #f8f4ef;
+      color: var(--ink);
+      font: 16px/1.7 "Segoe UI", Arial, sans-serif;
+    }
+
+    a { color: #8a4f32; }
+    a:hover { color: #603620; }
+
+    .hero {
+      padding: 64px 24px 52px;
+      background: linear-gradient(125deg, #3b2a23 0%, #624637 62%, #a66a43 100%);
+      color: #fff;
+    }
+
+    .hero-inner, main, footer {
+      width: min(100% - 40px, 1040px);
+      margin-inline: auto;
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      color: #e9c9ad;
+      font-size: .82rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 760px;
+      margin: 0;
+      font-size: clamp(2.1rem, 5vw, 3.6rem);
+      line-height: 1.12;
+    }
+
+    .subtitle {
+      max-width: 700px;
+      margin: 18px 0 0;
+      color: #f0e2d5;
+      font-size: 1.12rem;
+    }
+
+    main { padding: 30px 0 56px; }
+
+    .intro, section {
+      margin: 18px 0;
+      padding: 28px clamp(20px, 4vw, 38px);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--surface);
+      box-shadow: 0 8px 26px rgb(15 23 42 / 4%);
+    }
+
+    .intro { border-top: 4px solid var(--copper); }
+
+    h2 {
+      margin: 0 0 14px;
+      color: var(--espresso);
+      font-size: clamp(1.35rem, 3vw, 1.8rem);
+      line-height: 1.3;
+    }
+
+    h3 {
+      margin: 24px 0 8px;
+      color: var(--cocoa);
+      font-size: 1.08rem;
+    }
+
+    p { margin: 10px 0; }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 16px 0 0;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 4px 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--soft);
+      color: #59463b;
+      font-size: .86rem;
+      font-weight: 600;
+    }
+
+    .callout {
+      margin-top: 18px;
+      padding: 14px 18px;
+      border-left: 4px solid var(--copper);
+      border-radius: 8px;
+      background: #f7efe7;
+    }
+
+    .table-wrap {
+      margin: 14px 0 6px;
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+    }
+
+    th, td {
+      padding: 10px 13px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #f3e8dc;
+      color: var(--espresso);
+      font-size: .9rem;
+    }
+
+    tr:last-child td { border-bottom: 0; }
+    td:last-child { min-width: 160px; }
+
+    footer {
+      padding: 0 0 36px;
+      color: var(--muted);
+      font-size: .9rem;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .hero { padding: 46px 20px 38px; }
+      .hero-inner, main, footer { width: min(100% - 24px, 1040px); }
+      .intro, section { padding: 22px 18px; border-radius: 12px; }
+      th, td { padding: 9px 10px; }
+    }
+
+    @media print {
+      body { background: #fff; font-size: 11pt; }
+      .hero { padding: 28px; print-color-adjust: exact; }
+      main { width: 100%; padding: 10px 0; }
+      .intro, section { break-inside: avoid; box-shadow: none; }
+      a { color: inherit; text-decoration: none; }
+      footer { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">GCI World 2026 · Final Assignment</p>
+      <h1>AI Assistance Documentation</h1>
+      <p class="subtitle">A transparent record of AI tools used during project development, the kinds of assistance provided, and the author's role in reviewing and adapting that work.</p>
+    </div>
+  </header>
+
+  <main>
+    <article class="intro">
+      <h2>Purpose and Scope</h2>
+      <p>This document records the AI tools used during the development of the GCI World 2026 Final Assignment. It identifies the project stages in which AI assistance was used, describes the types of support provided, and includes links to the available conversation histories.</p>
+      <p>AI tools were used as supporting resources for code development, troubleshooting, exploring analytical approaches, discussing machine learning methods, improving notebook organization, and preparing project documentation. Their outputs were treated as suggestions and working drafts rather than automatically accepted final solutions.</p>
+      <p>The project was developed iteratively through subsequent review, modification, execution, and testing of the code and analytical approaches.</p>
+    </article>
+
+    <section id="eda">
+      <h2>1. Data Loading and Exploratory Data Analysis (EDA)</h2>
+      <div class="meta"><span class="tag">Tool: ChatGPT</span><span class="tag">8 documented conversations</span></div>
+      <h3>Description</h3>
+      <p>These conversations document the initial data-loading and exploratory data analysis process. ChatGPT supported the early stages of dataset exploration and helped with the initial implementation of data-loading and analysis code.</p>
+      <p>The initial code and analytical work were subsequently reviewed, modified, and extended during further project development.</p>
+      <h3>Author's involvement</h3>
+      <p>The author used the initial work as a starting point, then continued developing the analysis and adapting the code to the project's requirements.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Conversation</th><th>Direct link</th></tr></thead>
+        <tbody>
+          <tr><td>EDA - Initial Data Exploration 01</td><td><a href="https://chatgpt.com/g/g-p-6aec270ea2d081919cfeee4380fd367b-final-assignment/shared/c/6aefd946-b130-83eb-b471-eee74fbc35ef?owner_user_id=user-1neUJf5Mtvyt8Fz0LDUgwEpA" target="_blank" rel="noopener noreferrer">Open chat 01</a></td></tr>
+          <tr><td>EDA - Initial Data Exploration 02</td><td><a href="https://chatgpt.com/g/g-p-6aec270ea2d081919cfeee4380fd367b-final-assignment/shared/c/6aefe3f3-5ca4-83ed-b3e1-320992f062c3?owner_user_id=user-1neUJf5Mtvyt8Fz0LDUgwEpA" target="_blank" rel="noopener noreferrer">Open chat 02</a></td></tr>
+          <tr><td>EDA - Initial Data Exploration 03</td><td><a href="https://chatgpt.com/g/g-p-6aec270ea2d081919cfeee4380fd367b-final-assignment/shared/c/6af1fd60-bda0-83ed-af5b-19c4cbe2095b?owner_user_id=user-1neUJf5Mtvyt8Fz0LDUgwEpA" target="_blank" rel="noopener noreferrer">Open chat 03</a></td></tr>
+          <tr><td>EDA - Initial Data Exploration 04</td><td><a href="https://chatgpt.com/g/g-p-6aec270ea2d081919cfeee4380fd367b-final-assignment/shared/c/6af4ae1b-e88c-83eb-ab40-070773b09dad?owner_user_id=user-1neUJf5Mtvyt8Fz0LDUgwEpA" target="_blank" rel="noopener noreferrer">Open chat 04</a></td></tr>
+          <tr><td>EDA - Initial Data Exploration 05</td><td><a href="https://chatgpt.com/g/g-p-6aec270ea2d081919cfeee4380fd367b-final-assignment/shared/c/6af322b8-5964-83eb-8683-962f5c43d5ef?owner_user_id=user-1neUJf5Mtvyt8Fz0LDUgwEpA" target="_blank" rel="noopener noreferrer">Open chat 05</a></td></tr>
+          <tr><td>EDA - Initial Data Exploration 06</td><td><a href="https://chatgpt.com/g/g-p-6aec270ea2d081919cfeee4380fd367b-final-assignment/shared/c/6afaaa65-e0f8-83ed-b3e3-9063375808bd?owner_user_id=user-1neUJf5Mtvyt8Fz0LDUgwEpA" target="_blank" rel="noopener noreferrer">Open chat 06</a></td></tr>
+          <tr><td>EDA - Initial Data Exploration 07</td><td><a href="https://chatgpt.com/g/g-p-6aec270ea2d081919cfeee4380fd367b-final-assignment/shared/c/6aefd189-59e0-83ed-800b-37825aac6b63?owner_user_id=user-1neUJf5Mtvyt8Fz0LDUgwEpA" target="_blank" rel="noopener noreferrer">Open chat 07</a></td></tr>
+          <tr><td>EDA - Initial Data Exploration 08</td><td><a href="https://chatgpt.com/g/g-p-6aec270ea2d081919cfeee4380fd367b-final-assignment/shared/c/6aefe313-7088-83ed-b45e-539b33ec6063?owner_user_id=user-1neUJf5Mtvyt8Fz0LDUgwEpA" target="_blank" rel="noopener noreferrer">Open chat 08</a></td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <section id="features">
+      <h2>2. Feature Engineering</h2>
+      <div class="meta"><span class="tag">Tools: ChatGPT and Claude</span><span class="tag">1 documented ChatGPT conversation</span></div>
+      <h3>Description</h3>
+      <p>ChatGPT supported the initial implementation of feature engineering and provided assistance with developing the first version of the feature engineering code. This initial implementation was subsequently expanded and modified as the project progressed.</p>
+      <p>Claude was used to discuss feature engineering approaches and implementation ideas. However, no shareable conversation URL is available.</p>
+      <h3>Author's involvement</h3>
+      <p>The author continued developing and modifying the initial implementation. The final feature engineering work was incorporated into the project after further development.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Conversation or activity</th><th>Tool</th><th>Direct link</th></tr></thead>
+        <tbody>
+          <tr><td>Initial Feature Engineering Implementation</td><td>ChatGPT</td><td><a href="https://chatgpt.com/g/g-p-6aec270ea2d081919cfeee4380fd367b-final-assignment/shared/c/6af56e4e-2bf4-83eb-98c6-89d8faa7974e?owner_user_id=user-1neUJf5Mtvyt8Fz0LDUgwEpA" target="_blank" rel="noopener noreferrer">Open conversation</a></td></tr>
+          <tr><td>Additional Feature Engineering Assistance</td><td>Claude</td><td>No shareable conversation link available</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <section id="modeling">
+      <h2>3. Data Preprocessing and Machine Learning Development</h2>
+      <div class="meta"><span class="tag">Tool: ChatGPT</span><span class="tag">4 documented conversations</span></div>
+      <h3>Description</h3>
+      <p>These conversations cover the data preprocessing stage and the initial development of machine learning models. ChatGPT was used as a supporting resource for discussing implementation approaches and developing the initial modeling workflow.</p>
+      <p>The conversations document part of the transition from data preparation to predictive modeling. The initial work was subsequently developed further through additional modifications and experimentation.</p>
+      <h3>Author's involvement</h3>
+      <p>The author continued working on the preprocessing and modeling workflow, adapting the implementation to the project and evaluating the resulting work.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Conversation</th><th>Direct link</th></tr></thead>
+        <tbody>
+          <tr><td>Data Preprocessing and ML Development 01</td><td><a href="https://chatgpt.com/g/g-p-6aec270ea2d081919cfeee4380fd367b-final-assignment/shared/c/6afb691d-616c-83ed-b63e-edba44c56ab1?owner_user_id=user-1neUJf5Mtvyt8Fz0LDUgwEpA" target="_blank" rel="noopener noreferrer">Open chat 01</a></td></tr>
+          <tr><td>Data Preprocessing and ML Development 02</td><td><a href="https://chatgpt.com/g/g-p-6aec270ea2d081919cfeee4380fd367b-final-assignment/shared/c/6afbfba1-6ffc-83ed-9ab2-faf714d97ae2?owner_user_id=user-1neUJf5Mtvyt8Fz0LDUgwEpA" target="_blank" rel="noopener noreferrer">Open chat 02</a></td></tr>
+          <tr><td>Data Preprocessing and ML Development 03</td><td><a href="https://chatgpt.com/g/g-p-6aec270ea2d081919cfeee4380fd367b-final-assignment/shared/c/6afc05e6-5c5c-83eb-b357-c8aecc60f88c?owner_user_id=user-1neUJf5Mtvyt8Fz0LDUgwEpA" target="_blank" rel="noopener noreferrer">Open chat 03</a></td></tr>
+          <tr><td>Data Preprocessing and ML Development 04</td><td><a href="https://chatgpt.com/g/g-p-6aec270ea2d081919cfeee4380fd367b-final-assignment/shared/c/6afdbc25-c458-83eb-888e-ef159d32a0a9?owner_user_id=user-1neUJf5Mtvyt8Fz0LDUgwEpA" target="_blank" rel="noopener noreferrer">Open chat 04</a></td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <section id="research">
+      <h2>4. External Research</h2>
+      <div class="meta"><span class="tag">Tool: ChatGPT</span><span class="tag">1 documented conversation</span></div>
+      <h3>Description</h3>
+      <p>ChatGPT was used as a supporting resource during the external research stage. The conversation served as a workspace for exploring research topics and gathering information relevant to the project's industry and business analysis.</p>
+      <p>Any factual claims, statistics, and external information used in the final report or presentation should be attributed to their original sources, rather than to the ChatGPT conversation itself.</p>
+      <h3>Author's involvement</h3>
+      <p>The author used the research process to support the preparation of the project's business analysis and presentation. Original references are listed separately in the final assignment.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Conversation</th><th>Direct link</th></tr></thead>
+        <tbody><tr><td>External Research for the Final Assignment</td><td><a href="https://chatgpt.com/g/g-p-6aec270ea2d081919cfeee4380fd367b-final-assignment/shared/c/6aff3d55-48e0-83eb-957c-99c9be585e78?owner_user_id=user-1neUJf5Mtvyt8Fz0LDUgwEpA" target="_blank" rel="noopener noreferrer">Open conversation</a></td></tr></tbody>
+      </table></div>
+    </section>
+
+    <section id="integration">
+      <h2>5. Notebook Development and Model Integration</h2>
+      <div class="meta"><span class="tag">Tool: Genspark</span><span class="tag">1 external AI session</span></div>
+      <h3>Description</h3>
+      <p>After the initial notebook development and testing with ChatGPT, the notebook was submitted to Genspark for assistance with organization, model comparison, and exploration of ensembling approaches.</p>
+      <p>Genspark was used to explore additional machine learning models, suggest notebook improvements, and assist with ensembling approaches.</p>
+      <h3>Author's involvement</h3>
+      <p>The author reviewed the resulting suggestions and retained only the approaches considered appropriate for the project. The notebook and proposed approaches remained subject to further review and development.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Session</th><th>Main contribution</th><th>Direct link</th></tr></thead>
+        <tbody><tr><td>Notebook Development and Model Integration</td><td>Notebook organization, additional model comparisons, and ensembling approaches</td><td><a href="https://www.genspark.ai/agents?id=7c53bf78-cb07-4fa5-84cd-a0dbf7ff196f" target="_blank" rel="noopener noreferrer">Open Genspark session</a></td></tr></tbody>
+      </table></div>
+    </section>
+
+    <section id="review">
+      <h2>6. Human Review and Validation</h2>
+      <p>AI-assisted code and suggestions were treated as supporting material and were not automatically accepted as final project outputs.</p>
+      <p>The author reviewed, adapted, and tested the proposed implementations during project development. The author also investigated errors, modified code where necessary, and assessed whether the suggested approaches were appropriate for the project's requirements.</p>
+      <p>Code execution, troubleshooting, experimentation, and model evaluation formed part of the iterative development process. Final implementation choices, feature engineering decisions, model selection, and the inclusion of AI-assisted suggestions were determined by the author.</p>
+    </section>
+
+    <section id="transparency">
+      <h2>7. Transparency and Acknowledgment</h2>
+      <p>AI tools were used as supporting resources during several stages of the project, including exploratory data analysis, feature engineering, data preprocessing, machine learning development, external research planning, notebook organization, and model comparison.</p>
+      <p>The tools provided assistance with initial code development, implementation suggestions, discussion of analytical approaches, and exploration of model alternatives. Their outputs were used as a starting point for further work rather than as unquestioned final solutions.</p>
+      <p>The author remained responsible for the project's development decisions and the review and adaptation of AI-assisted work.</p>
+      <h3>AI reference links</h3>
+      <p>The available ChatGPT and Genspark links are listed above and may be added individually to the official reference list or submission form. Each link should use the direct URL provided in this document. Claude's contribution to feature engineering is acknowledged, but no shareable conversation URL is available.</p>
+      <div class="callout"><strong>Before submission:</strong> Verify that every shared link opens without private-access requirements and does not expose personal or confidential information.</div>
+      <h3>Additional note</h3>
+      <p>This document records AI assistance and conversation history. It does not replace the original academic, industry, or business references used to support factual claims in the final report and presentation.</p>
+      <p>The original sources used for factual claims, statistics, and industry information are listed separately in the final report and presentation. AI conversations are transparency records and should not be treated as the original sources for external information.</p>
+    </section>
+  </main>
+
+  <footer>
+    GCI World 2026 Final Assignment · AI assistance transparency record
+  </footer>
+</body>
+</html>
